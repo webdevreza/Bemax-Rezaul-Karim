@@ -1,0 +1,422 @@
+/*Desktop*/
+@media (min-width:992px) and (max-width:1200px){
+    .container{
+        width: 970px;
+    }
+    .logo {
+	padding: 40px 40px 42px;
+    }
+    .blog-link a {
+	margin-right: 60px;
+	margin-bottom: 10px;
+	display: inline-block;
+    }
+    .footer-search-box input {
+	width: 64%;
+    }
+    .col-8.desk-res {
+	width: 75%;
+    }
+    .col-4.desk-res-btn {
+	width: 25%;
+    }
+    .popup-icon {
+	padding-bottom: 10px;
+    }
+}
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px){
+   .container{
+        width: 750px;
+    }
+    .logo {
+	    width: 100%;
+        padding: 20px 0;
+        float: none;
+        text-align: center;
+    }
+    .main-menu{
+        display: none;
+    }
+    .search-icon {
+        display: none;
+    }
+    /*...............tab menu start..................*/
+    .tab-menu{
+    display: inherit;
+    position: relative;
+    z-index: 9999 !important;
+    }
+    .sidebar{
+    position:absolute;
+    width: 250px;
+    height:91vh;
+    top: 0;
+    left: -371px;
+    background: #042331;
+    transition: all 0.5s ease 0s;
+    }
+    .sidebar h2{
+    font-size: 22px;
+    line-height: 70px;
+    color: #fff;
+    text-align: center;
+    background: #063146;
+    user-select: none;
+    }
+    .sidebar ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 65px;
+    font-size: 20px;
+    line-height: 65px;
+    padding-left: 60px;
+    border-top: 1px solid rgb(255,255,255,0.1);
+    border-bottom: 1px solid #000;
+    transition: all 0.4s ease 0s;
+    }
+    .sidebar ul li:hover a{
+        padding-left: 80px;
+    }
+    .sidebar ul li a i{
+        margin-right: 16px;
+    }
+    #check{
+      display: none;
+    }
+    label #btn,label #cancel{
+        position: absolute;
+        cursor: pointer;
+        background: #042331;
+        border-radius: 3px;
+    }
+    label #btn{
+        left: 40px;
+        top: -45px;
+        font-size: 25px;
+        color: #fff;
+        padding: 6px 12px;
+        transition: all 0.5s ease 0s;
+    }
+    label #cancel{
+        font-size: 30px;
+        left: -195px;
+        top: -45px;
+        padding: 4px 9px;
+        color: #fff;
+        z-index: 999;
+        transition: all 0.5s ease 0s;
+    }
+    #check:checked ~ .sidebar{
+        left: -121px;
+    }
+
+    #check:checked ~ label #btn{
+        left: 90px;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    #check:checked ~ label #cancel{
+        left: 90px;
+        }
+
+    /*........tab menu end................*/
+    .cta-text h4 span {
+	font-size: 25px;
+    }  
+    .cta-btn {
+	margin-top: 10px;
+    }
+    .single-feature{
+        height: 250px;
+    }
+    .feature-content {
+	top: 195px;
+    } 
+    .single-service {
+	padding-left: 15px;
+    }
+    .col-8.desk-res {
+	width: 75%;
+    }
+    .col-4.desk-res-btn {
+	width: 25%;
+    }
+    .col-4{
+        width: 50%;
+        padding: 0 10px 10px;
+    }
+    .col-4.for-tab{
+        display:inherit;
+    }
+    .pt-70{
+        padding-top: 40px;
+    }
+    .pb-70{
+        padding-bottom: 40px;
+    }
+    .col-6{
+        width: 100%;
+        padding: 20px 50px;
+    }
+    .working-img {
+	display: none;
+    }
+    .col-3 {
+	width: 50%;
+	padding: 30px 25px 10px;
+    }
+    .footer-search-box input {
+	width: 77%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 879px){
+    
+    #check:checked ~ .sidebar{
+        left: -65px;
+    }
+
+    #check:checked ~ label #btn{
+        left: 147px;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    #check:checked ~ label #cancel{
+        left: 147px;
+        }
+}
+/*Smart Phone*/
+@media (min-width: 576px) and (max-width: 767px){
+    .container{
+        width: 550px;
+    }
+    .logo {
+	    width: 100%;
+        padding: 40px 0;
+        float: none;
+        text-align: center;
+    }
+    .search-icon{
+        display: none;
+    }
+    
+    .mean-container a.meanmenu-reveal {
+	background: #4272D7;
+    }
+    .mean-container .mean-bar {
+	float: right;
+	width: 100%;
+	position: relative;
+	background: #0c192300;
+	z-index: 999999;
+    }
+    .mean-container .mean-nav {
+        width: 100%;
+	    position: absolute;
+        background-color: #21D4FD9E;
+        background-image: linear-gradient(270deg, #21D4FD9C 0%, #B721FF 100%);
+    }
+    .mean-container .mean-nav ul li a.mean-expand:hover {
+        background-color: #21D4FD9E;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+	height: 27px;
+    }
+    .slider-text h1 {
+	font-size: 60px;
+    }
+    .col-8 {
+	width: 100%;
+    }
+    .col-4 {
+	width: 66.66%;
+	padding: 0 15px;
+	transform: translateX(-50%);
+	margin-left: 50%;
+    margin-bottom: 30px;
+    }
+    .cta-area{
+    padding: 20px 0;
+    }
+    .cta-btn {
+        float: none;
+	text-align: center;
+        padding-top: 20px;
+    } 
+    .single-service{
+    display: inherit;
+    text-align: center;
+    }
+    .service-info {
+	width: 100%;
+    }
+    .service-icon {
+    display: inline-block;
+    }
+    .service-icon i{
+    margin-left:0;
+    }
+    .pt-70{
+        padding-top: 30px;
+    }
+    .pb-70{
+        padding-bottom: 30px;
+    }
+    .col-6{
+        width: 100%;
+        padding: 20px 50px;
+    }   
+    .col-3{
+    width: 66.66%;
+    text-align: center;
+    float: none;
+    padding: 0 15px;
+	transform: translateX(-50%);
+	margin-left: 50%;
+    margin-bottom: 30px;
+    }
+    .footer-list {
+	margin-top: 10px;
+    }
+    .footer-part-4 h4 {
+	margin-bottom: 15px;
+    }
+    .footer-search-box input {
+	width: 56%;
+    }
+}
+/*Small device*/
+@media (min-width: 320px) and (max-width: 575px){
+    .container{
+        width: 320px;
+    }
+    .logo {
+	    width: 100%;
+        padding: 20px 0;
+        float: none;
+        text-align: center;
+    }
+    .search-icon{
+        display: none;
+    }
+    
+    .mean-container a.meanmenu-reveal {
+	background: #4272D7;
+    }
+    .mean-container .mean-bar {
+	float: right;
+	width: 100%;
+	position: relative;
+	background: #0c192300;
+	z-index: 999999;
+    }
+    .mean-container .mean-nav {
+        width: 100%;
+	    position: absolute;
+        background-color: #21D4FD9E;
+        background-image: linear-gradient(270deg, #21D4FD9C 0%, #B721FF 100%);
+    }
+    .mean-container .mean-nav ul li a.mean-expand:hover {
+        background-color: #21D4FD9E;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+	height: 27px;
+    
+    }
+    .single-slide{
+        width: 100%;
+        height: 250px;
+    }
+    .slider-text h3{
+    font-size: 16px;
+    }
+    .slider-text h1{
+    font-size: 30px;
+    font-weight: 800;
+    }
+    a.btn{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 20px;
+    }
+    .slider-active .owl-nav button span {
+	display: none;
+    }
+    .slider-active .owl-dots{
+    display: none;
+    }
+    .col-3,.col-4,.col-6,.col-8{
+        width: 100%;
+    }
+    .cta-text {
+	padding: 10px 5px;
+    }
+    .cta-btn{
+    float: none;
+    margin-top:20px;
+    text-align: center;
+    }
+    .cta-area{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    }
+    .cta-btn a{
+    font-size: 16px;
+    padding: 10px 25px;
+    }
+    .single-feature {
+	margin: 5px 0;
+    }
+    .feature-info{
+        display: none;
+    }
+    .feature-content{
+    padding: 50px 30px;
+    text-align: center;
+    top: 190px;
+    }
+    .pt-70{
+    padding-top: 20px;
+    }
+    .pb-70{
+    padding-bottom: 20px;
+    }
+    .services {
+	margin-top: 40px;
+    }
+    .single-service{
+    display: inherit;
+    text-align: center;
+    }
+    .service-info {
+	width: 100%;
+    }
+    .service-icon {
+    display: inline-block;
+    }
+    .service-icon i{
+    margin-left:0;
+    }
+    .blog-content {
+	display: inherit;
+    }
+    .blog-text {
+	width: 100%;
+	padding: 20px 20px 0 25px;
+    }
+    .project-active .owl-nav button span {
+	display: none;
+    }
+    .col-3{
+    text-align: center;
+    }
+    .footer-part-2, .footer-part-3,.footer-part-4{
+        display: none;
+    }
+}
